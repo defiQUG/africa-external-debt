@@ -34,9 +34,9 @@ resource logAnalytics 'Microsoft.OperationalInsights/workspaces@2021-06-01' = {
 resource staticSite 'Microsoft.Web/staticSites@2024-04-01' = {
   name: 'swa-${resourceToken}'
   location: location
-  sku: {
-    name: 'Free'
-  }
+    sku: {
+      name: 'Standard'
+    }
   tags: {
     'azd-env-name': environmentName
   }
