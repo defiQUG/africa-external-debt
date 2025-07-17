@@ -1,0 +1,7 @@
+name: document-portal
+metadata:
+  template: staticwebapp
+  document-portal:
+    project: .
+    language: ts
+    host: staticwebapp
